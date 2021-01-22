@@ -117,8 +117,6 @@ public class AppnPrototype {
 			System.out.println("Error: Invalid input! \n");
 			break;
 		}
-		
-		
 	}
 	
 	
@@ -152,7 +150,7 @@ public class AppnPrototype {
 			
 		}
 		
-		}
+	}
 	
 	
 	
@@ -211,12 +209,10 @@ public class AppnPrototype {
 				System.out.println("Invalid path!!");
 				userInterface();
 			}
-			
-			
+
 		}
 		
-		
-		
+
 		
 		//Method  to search for a file
 		public static void searchFile() {
@@ -241,8 +237,6 @@ public class AppnPrototype {
 			File[] fileArray=file.listFiles();
 			if(fileArray==null) {
 				System.out.println("Invalid path!");
-				
-			
 				userInterface();
 			}
 			
@@ -254,19 +248,15 @@ public class AppnPrototype {
 			}
 			
 			if(flag==1) {
-				System.out.println("File found");
-				
+				System.out.println("File found");			
 			}
 			
 			else {
 				System.out.println("File not found!!");
 			}
-
-			
 		}
 	
-		
-		
+
 	
 	//To show the files in acsending order
 	public static List<File> showFileNames(String address, List<File> files)
@@ -274,10 +264,8 @@ public class AppnPrototype {
 		
 		
 		File directory = new File(address);
-		//test
 		if(directory.exists()) {
-			
-		
+
 	
 		File[] fList = directory.listFiles();
 		
@@ -291,20 +279,13 @@ public class AppnPrototype {
 	        }
 		
 		}
-
 	
 	 	Collections.sort(files);
 	    
-		return files;
-		
-	    		
-	    	
+		return files;	
 	    }
 		
-		
-		
-	
-	
+
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
