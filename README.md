@@ -1,5 +1,4 @@
-# slearnproj1
-Project for phase one of simplilearn course
+# Simplilearn phase 1 project
 
 A file management system where you can create, delete, and search for files
 Uses java
